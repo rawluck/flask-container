@@ -5,7 +5,9 @@ A Containerized Flask Hello World App using Docker and CI/CD unit tests using Tr
 
 The flask app is run from `app.py` there an test in `test/test_app.py` which checks the contents to verify the server is up and responding correctly.
 
-The test is run using Travis CI. Tavis also auto deploys the containter to docker hub registry using `.travis/deploy_dockerhub.sh`
+The test is run using Travis CI. Tavis also auto deploys the containter to docker hub registry using `.travis/deploy_dockerhub.sh` and `.tavis/deploy_heroku.sh` auto deploys it to heroku.
+
+[DEMO](https://rawluck.herokuapp.com/)
 
 
 ## Deployment
