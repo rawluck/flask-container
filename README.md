@@ -7,6 +7,8 @@ The flask app is run from `app.py` there an test in `test/test_app.py` which che
 
 The test is run using Travis CI. Tavis also auto deploys the containter to docker hub registry using `.travis/deploy_dockerhub.sh` and `.tavis/deploy_heroku.sh` auto deploys it to heroku.
 
+Therefore whenever code is pushed to the Github Repo Tavis CI runs the Unit Test, updates the docker registry container and deploys that container to Heroku.
+
 [DEMO](https://rawluck.herokuapp.com/) | [Docker Registry](https://hub.docker.com/r/rawluck/flask-container)
 
 
